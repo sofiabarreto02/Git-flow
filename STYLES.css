@@ -523,3 +523,42 @@ margin-bottom: 10rem;
     outline: none;
 
 }
+.footer{
+    width: 100%;
+    height: auto;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    background-color:#241323; 
+    display: flex;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: space-around;
+   
+   
+} 
+
+.p{
+    color:white;
+    display: flex;
+    align-items: center;
+    font-weight: 100;
+}
+
+.footer a{
+    background-color: #76277A;
+    border-radius: .5rem;
+}
+
+.footer .fa-solid{
+    color: #fff;
+    font-size: 1.3rem;
+    padding: .6rem;
+
+}
+
+.fa-solid:hover{
+    box-shadow: 0 0 20px #B863B3;
+    transition: 0.3s;
+    border-radius: .5rem;
+    
+}
